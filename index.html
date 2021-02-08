@@ -61,7 +61,7 @@
     <!-- About -->
     <section id="about" class="section section__container">
         <h1>About me</h1>
-        <p>저는 어제보다 나은 오늘을 위해, 오늘보다 나을 내일을 위하여 노력하는 개발자입니다. <br> 모르는것을 배우며 발전하고, 배운것을 토대로 저는 더욱 더 성장하는 개발자가 될 것입니다. 업데이트로, 사용하는 프레임워크가 바뀌어서 설령 모든걸 처음부터 다시 배워야한다 하더라도 누구보다 빠르게 적응하고 노력하여 팀에 도움이 되는 하나를 배우고 둘로 활용하는 개발자가 되겠습니다. 
+        <p>저는 어제보다 나은 오늘을 위해, 오늘보다 나을 내일을 위하여 노력하는 개발자입니다. <br> 노력한것중에서도 리액트를 사용하여 '쇼핑몰'을 구현한 경험이 있습니다. <br>또한, react-native에도 관심이 있어 날씨앱을 개발한 경험도 가지고있습니다. <br>여러가지 방면에서 노력하고 그 노력에 맞는 성과를 내는 저의 모습을 통해 귀하의 회사에서 함께 성장하는 사람이 되고싶습니다.
         </p>
     <div class="about__majors">
         <div class="major">
@@ -88,7 +88,7 @@
         </div>
         <h2 class="major__title">React</h2>
         <div class="major__description">
-            None   <!--추후변경-->
+            React-native   <!--추후변경-->
         </div>
         </div>
     </div>
@@ -135,7 +135,7 @@
                 <div class="skill">
                     <div class="skill__description">
                         <span>CSS</span>
-                        <span>62%</span>
+                        <span>72%</span>
                     </div>
                     <div class="skill__bar">
                         <div class="skill__value" style="width: 62%;"></div>
@@ -153,7 +153,7 @@
                 <div class="skill">
                     <div class="skill__description">
                         <span>TypeScript</span>
-                        <span>60%</span>
+                        <span>50%</span>
                     </div>
                     <div class="skill__bar">
                         <div class="skill__value" style="width: 60%;"></div>
@@ -162,7 +162,7 @@
                 <div class="skill">
                     <div class="skill__description">
                         <span>React</span>
-                        <span>80%</span>
+                        <span>88%</span>
                     </div>
                     <div class="skill__bar">
                         <div class="skill__value" style="width: 80%;"></div>
@@ -186,6 +186,7 @@
                         <li><span>Git</span></li>
                         <li><span>English</span></li>
                         <li><span>Team work</span></li>
+                        <li><span>axios</span></li>
                     </ul>
                 </div>
             </div>
@@ -200,93 +201,78 @@
         <h3>Projects</h3>
         <div class="work__categories">
             <button class="category__btn selected" data-filter="*">All
-            <span class="category__count">9</span></button>
-            <button class="category__btn" data-filter="front-end">HTML
-            <span class="category__count">1</span></button>
+            <span class="category__count">6</span></button>
+            <button class="category__btn" data-filter="React">React
+            <span class="category__count">3</span></button>
             <button class="category__btn" data-filter="JAVASCRIPT">JAVASCRIPT
-            <span class="category__count">4</span></button>
-            <button class="category__btn" data-filter="react">React
-            <span class="category__count">4</span></button>
+            <span class="category__count">2</span></button>
+            <button class="category__btn" data-filter="React-native">React-native
+            <span class="category__count">1</span></button>
         </div>
 
         <div class="work__projects">
-            <a href="https://developerpark2348.github.io/carrot-find-game-developerpark2348/." class="project" target="blank"
+            <a href="https://developerpark2348.github.io/carrot_find_game/" class="project" target="blank"
             data-type="JAVASCRIPT">
-                <img class="project__img" src="imgs/projects/project3.png" alt="프로젝트 대한 간단 설명">
+                <img class="project__img" src="imgs/projects/1.png" alt="프로젝트 대한 간단 설명">
                 <div class="project__description">
                     <h3>당근 찾기 게임</h3>
-                    <span>첫 표지만 보고 스스로 popup창의 style.opacity를 지정하여, javascript 타이머가 0이될시, popup창의 내용의 opacity를 1로 만들어 화면에 출력하게 만들었으며, 소리출력등과같은 여러가지 요소를 활용하여 만들었습니다. 도움:DreamCoding(엘리)</span>
-                </div>
-            </a>
-            <a href="https://developerpark2348.github.io/shoppingtemplate-developerpark2348/." class="project" target="blank" data-type="JAVASCRIPT">
-                <img class="project__img" src="imgs/projects/project1.png" alt="프로젝트 대한 간단 설명">
-                <div class="project__description">
-                    <h3>쇼핑몰 item 분류</h3>
-                    <span>html, css, java script를 사용하여 json파일로 데이터를 받아와 버튼을 클릭하면 분류가 가능한 프로젝트를 만들어 보았습니다.</span>
-                </div>
-            </a>
-            <a href="https://github.com/developerpark2348/League-of-Legends-frank-developerpark2348" class="project" target="blank"
-            data-type="front-end">
-                <img class="project__img" src="imgs/projects/project2.png" alt="프로젝트 대한 간단 설명">
-                <div class="project__description">
-                    <h3>게임 점검 안내문</h3>
-                    <span>html과 css로 파일을 간략히 만든 후, github페이지를 이용한 퍼블리싱으로 퍼블리싱후, 친구들에게 장난을 쳐 본 프로젝트입니다.</span>
-                </div>
-            </a>
-            <a href="https://github.com/developerpark2348/coordinates-developerpark2348" class="project" target="blank"
-            data-type="JAVASCRIPT">
-                <img class="project__img" src="imgs/projects/project4.png" alt="프로젝트 대한 간단 설명">
-                <div class="project__description">
-                    <h3>실시간 좌표값 찾기</h3>
-                    <span>client값을 활용하여 실시간으로 좌표의 움직임을 업데이트하여 이미지를 움직임과 동시에, 좌표 오른쪽 아래에 현 좌표를 표시하도록 만들었습니다.</span>
-                </div>
-            </a>
-            <a href="https://developerpark2348.github.io/shopping-list-developerpark2348/." class="project" target="blank"
-            data-type="JAVASCRIPT">
-                <img class="project__img" src="imgs/projects/project5.png" alt="프로젝트 대한 간단 설명">
-                <div class="project__description">
-                    <h3>쇼핑 리스트</h3>
-                    <span>텍스트칸에 값을 입력후 enter키나 +버튼을 누르면 텍스트칸 내의 데이터가 li값으로 입력되게 만들었으며, 옆의 휴지통 버튼을 누르게되면 해당 리스트 값이 사라지는 to do list 및 쇼핑몰 리스트를 만들어보았습니다.</span>
-                </div>
-            </a>
-            <a href="https://github.com/developerpark2348/contact-app-react-developerpark2348" class="project" target="blank"
-            data-type="react">
-                <img class="project__img" src="imgs/projects/project6.png" alt="프로젝트 대한 간단 설명">
-                <div class="project__description">
-                    <h3>To do list</h3>
-                    <span>이름, 전화번호를 각각 input에서
-                        data를 받아와 enter나 등록을 누르면 밑에
-                        정렬되도록 만들었습니다. 이름 전화번호 input칸 
-                        밑의 검색을 활용하여 등록된것을 검색해볼수도,
-                        그리고 등록된것들의 삭제 수정또한 가능하도록 만들었습니다.</span>
-                </div>
-            </a>
-            <a href="https://github.com/developerpark2348/blog-react-developerpark2348" class="project" target="blank"
-            data-type="react">
-                <img class="project__img" src="imgs/projects/project7.png" alt="프로젝트 대한 간단 설명">
-                <div class="project__description">
-                    <h3>React 블로그 만들기</h3>
-                    <span>useState를 처음 사용하여 만든 블로그로서, map함수를 사용하여, 자동화를 이루었으며, input칸에 글의 제목을 입력하면 제목을 글제목state에 넣어 자동으로 출력해주는 블로그를 만들었습니다.
-                    밑의 button을 클릭하면 삼항연산자를 사용하여 modal창을 닫는 버튼 또한, 만들어 보았습니다.
+                    <span>
+                        배경음악을 처음 삽입해본 Javascript로 만든 웹으로서
+                        벌레를 피해 당근을 캐는 게임입니다.
                     </span>
                 </div>
             </a>
-            <a href="https://github.com/developerpark2348/shoppingmall-practice-developerpark2348" class="project" target="blank"
-            data-type="react">
-                <img class="project__img" src="imgs/projects/project8.png" alt="프로젝트 대한 간단 설명">
+            <a href="https://developerpark2348.github.io/shoppingmall_project_react/" class="project" target="blank"
+            data-type="React">
+                <img class="project__img" src="imgs/projects/2.png" alt="프로젝트 대한 간단 설명">
                 <div class="project__description">
-                    <h3>Shoppingmall - React</h3>
-                    <span>Route로 링크를 다르게 해본 페이지로서, /에는 메인페이지로 초반에 3개의 자료는 useState를 사용하고, 더보기버튼을 누르면 추가되어 map자동화를 통해 표시되는 3개의 자료는 axios를 통하여 기존의 서버에서 받아왔습니다. 더보기는 read me에서 부탁드려요! </span>
+                    <h3>쇼핑몰</h3>
+                    <span>
+                        axios로 모든 데이터를 서버에서 받아와 작업한 react 쇼핑몰 프로젝트로서, 메인페이지, 카트, 디테일 등의 여러 컴포넌트를 작업하였습니다.
+                    </span>
                 </div>
             </a>
-            <a href="https://github.com/developerpark2348/Solo-project-TodoList" class="project" target="blank"
-            data-type="react">
-                <img class="project__img" src="imgs/projects/project9.png" alt="프로젝트 대한 간단 설명">
+            <a href="https://expo.io/@developerpark2348/projects/weather_app" class="project" target="blank"
+            data-type="React-native">
+                <img class="project__img" src="imgs/projects/3.png" alt="프로젝트 대한 간단 설명">
                 <div class="project__description">
-                    <h3>Solo-ToDoList</h3>
-                    <span> 검색이나 기존 코드의 도움없이 혼자서 만들어본 To-do List입니다. 기존의 프로젝트들은 검색이나 코드참조가 많았기에, 혼자서 프로젝트를 끝까지 만들고 싶어 만들게 된 프로젝트입니다. </span>
+                    <h3>날씨 앱</h3>
+                    <span>
+                        api를 받아와 작업한 앱으로서, 날씨 앱과 gps요청을 허가받아 위도와 경도를 찾아주는 api를 이용하여 해당 지역의 날씨와 온도등을 날씨나 상황에 맞게 찾아주는 앱을 개발하였습니다.
+                    </span>
                 </div>
             </a>
+            <a href="https://developerpark2348.github.io/shopping_list_js/" class="project" target="blank"
+            data-type="JAVASCRIPT">
+                <img class="project__img" src="imgs/projects/4.png" alt="프로젝트 대한 간단 설명">
+                <div class="project__description">
+                    <h3>쇼핑 리스트</h3>
+                    <span>
+                        javascript를 사용해 추가, 삭제 기능이 규현된 쇼핑 리스트를 제작하였습니다. 밑의 텍스트 상자에 텍스트를 넣고 추가시 해당 텍스트가 위의 목록에 올라가고 옆의 휴지통을 누르면 삭제 되도록 제작하였습니다.
+                    </span>
+                </div>
+            </a>
+            <a href="https://developerpark2348.github.io/TodoList_react/" class="project" target="blank"
+            data-type="React">
+                <img class="project__img" src="imgs/projects/5.png" alt="프로젝트 대한 간단 설명">
+                <div class="project__description">
+                    <h3>쇼핑 리스트</h3>
+                    <span>
+                        React를 사용해 추가, 삭제 기능이 규현된 to-do-list를 제작하였습니다. 밑의 텍스트 상자에 텍스트를 넣고 추가시 해당 텍스트가 위의 목록에 올라가고 옆의 삭제 버튼을 누르면 삭제 되도록 만들었습니다.
+                    </span>
+                </div>
+            </a>
+            <a href="https://developerpark2348.github.io/movie_app_2021/" class="project" target="blank"
+            data-type="React">
+                <img class="project__img" src="imgs/projects/6.png" alt="프로젝트 대한 간단 설명">
+                <div class="project__description">
+                    <h3>영화 소개 웹</h3>
+                    <span>
+                        React와 해외 영화 사이트 Api를 이용하여 설명, 제목과 같은 모든 텍스트 및 이미지를 해당 Api에서 필요한것들을 출력하여 사용하였습니다.
+                    </span>
+                </div>
+            </a>
+
         </div>
         </div>
     </section>
@@ -326,7 +312,7 @@
                 <i class="fab fa-github"></i>
             </a>
         </div>
-        <p class="countact__rights">2020 Developer park - ALL RIGHTS RESERVED</p>
+        <p class="countact__rights">2021 Developer park - ALL RIGHTS RESERVED</p>
     </section>
 
     <!-- Arrow up -->
